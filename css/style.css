@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+#heading {
+    position: relative;
+    height: 100px; /* Adjust this value to match the desired height of the header */
+    background-image: url(../images/pattern.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    margin: 0px 10px 0px 10px;
+    top: 10px;
+}
+
+#heading h1 {
+    position: static;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#brushes h2{
+    background-color: mediumspringgreen;
+}
+
+#frames h2{
+    background-color: lightcoral;
+}
+
+#paint h2{
+    background-color: skyblue;
+}
+
+.standout {
+    font-weight: bold;
+    color: blue;
+}
+
+.section {
+    position: relative;
+    top: 70px;
+    margin: 20px 10px;
+}
